@@ -4,6 +4,7 @@
   "description": "music player build by react",
   "main": "app/index.js",
   "scripts": {
+    "start": "node server.js"
     "dev": "webpack-dev-server --devtool eval-source-map --progress --colors --hot --inline --content-base ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
